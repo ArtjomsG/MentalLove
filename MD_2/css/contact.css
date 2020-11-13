@@ -1,0 +1,149 @@
+
+/*HEADER AND FOOTER START*/
+.welcome {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: RGB(43,73,108);
+    font-weight: bold;  
+}
+
+.main {
+    height: 100vh;
+}
+.team {
+    color: RGB(0, 141, 208);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+#titleLogo {
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.navbar{
+    background-color: RGB(43,73,108);
+    height: auto;
+}
+
+.options {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.hoverLink {
+    color: white;
+    
+}
+
+.hoverLink:hover {
+    text-decoration: none;
+    color: RGB(0, 141, 208);
+
+}
+
+@media (max-width: 411px) {
+
+  
+    .options {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        display: inline-flex;
+        font-size: 10px;
+    }
+
+    .language {
+        display: inline-flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        position: relative;
+        float: right;
+        margin-left: 5px;
+    }
+
+
+    .contact{
+        height: 170vh;
+        
+    }
+
+ 
+  
+  }
+
+#footer {
+  
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: RGB(43,73,108);
+    width: 100%;
+    height: auto;
+
+}
+
+#facebook{
+width: 38px;
+height: 38px;
+margin-top: 5px;
+margin-bottom: 5px;
+position: relative;
+float: left;
+margin-left: 5px;
+
+}
+
+.language {
+    display: inline-flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    float: right;
+    margin-left: 5px;
+}
+
+.language_choice {
+    margin-left: 10px;
+    margin-right: 5px;
+    vertical-align: 10px;
+}
+
+
+
+/*HEADER AND FOOTER END*/
+
+.picture {
+    width: 300px;
+}
+
+.flag {
+    width: 50px;
+    height: 50px;
+    border-radius: 5rem;
+}
+
+.location {
+    text-align: center;
+}
+
+
+
+
+
+
